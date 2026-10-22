@@ -109,11 +109,11 @@ Three design decisions, each killing a class of bug rather than an instance:
 
 Rules implemented: T3.2.1/T3.2.5 (wall, area, I by class), T3.8.3,
 T3.9.2/T3.9.4, T3.10.3/T3.12.3, T3.11.2-T3.11.5, T3.12.1/T3.12.2, T3.14.1,
-T3.15.1/T3.15.2, T3.17.7, T5.5.1/T5.5.2, T2.9.1/T2.9.2. Drops are measured to the
+T3.15.1/T3.15.2, T3.17.7, T5.5.1, T2.9.1/T2.9.2. Drops are measured to the
 tube *surface*, not the centreline, as the rules require.
 
 **Not modelled:** cockpit templates (T4.1, T4.2), Percy clearance (T4.3), roll
-hoop bend geometry (T3.8.2, T3.9.3), SES approval. The hoops are sharp-cornered
+hoop bend geometry (T3.8.2, T3.9.3), the T5.5.2 strength calculation (the triangulation tube is modelled), the T5.5.5 strap angle, SES approval. The hoops are sharp-cornered
 polylines, not bent tubes. So: *rules-informed geometry, verified against T3* --
 **not** *scrutineering-legal*.
 
